@@ -6,8 +6,13 @@ h1 {
 
 body {
   background-color: #FFF0F5;
+  display: block;
+  margin: auto;
+  width: 600;
 }
 
-.menu {
+ul#menu li {
   display: inline;
+  padding: 8px;
+  background-color: #333;
 }
