@@ -1,9 +1,20 @@
 .banner{
   background: #b582b3;
-  height: 300px;
+  height: 250px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
+}
+
+.media-links {
+  display: flex;
+  gap:20px;
+}
+
+.media-links ul {
+  padding-left: 0;
 }
 
 h1 {
@@ -26,14 +37,15 @@ ul#menu li {
   justify-content: flex-end;
   align-items: center;
   padding: 8px;
-  background-color: #f0f3f5;
+  background-color: #FFF0F5;
 
 }
 
 ul#media li{
   display: inline-flex;
   padding: 8px;
-  background-color: #f0f3f5
+  background-color: #FFF0F5;
+
 }
 
 p {
@@ -42,5 +54,6 @@ p {
 }
 
 .menu-links{
-  align-content: bottom;
+  float: left;
+
 }
