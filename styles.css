@@ -5,12 +5,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 30px;
 }
 
 .media-links {
   display: flex;
-  gap:20px;
+  gap:790px;
 }
 
 .media-links ul {
@@ -55,5 +55,11 @@ p {
 
 .menu-links{
   float: left;
+}
 
+img{
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 100px;
+  height: 95px;
 }
