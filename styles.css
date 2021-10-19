@@ -55,6 +55,7 @@ p {
 
 .menu-links{
   float: left;
+  flex-direction: row;
 }
 
 img:not(.about-img){
