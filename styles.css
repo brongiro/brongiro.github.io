@@ -8,6 +8,7 @@
   padding: 30px;
 }
 
+
 .media-links {
   display: flex;
   gap:790px;
@@ -45,7 +46,6 @@ ul#media li{
   display: inline-flex;
   padding: 8px;
   background-color: #FFF0F5;
-
 }
 
 p {
@@ -57,9 +57,21 @@ p {
   float: left;
 }
 
-img{
+img:not(.about-img){
   border-radius: 50%;
   vertical-align: middle;
   width: 100px;
   height: 95px;
+}
+
+.pic{
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 100px;
+  height: 95px;
+}
+
+.about-img{
+  border-radius: 50%;
+  vertical-align: middle;
 }
