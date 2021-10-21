@@ -8,10 +8,10 @@
   padding: 30px;
 }
 
-
 .media-links {
   display: flex;
-  gap:790px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .media-links ul {
@@ -29,8 +29,22 @@ body {
   max-width: 1800px;
   min-width: inherit;
 	margin: auto;
-  text-align: center;
-  border: 20px
+}
+
+.content-wrapper-tabs{
+  width: 20%;
+  margin: 0 auto;
+}
+
+.content-wrapper{
+  width: 50%;
+  margin: 0 auto;
+}
+/* HOW TO WRITE A MEDIA QUERY */
+@media screen and (max-width:686px){
+  .content-wrapper{
+    width: 95%;
+  }
 }
 
 ul#menu li {
@@ -39,7 +53,6 @@ ul#menu li {
   align-items: center;
   padding: 8px;
   background-color: #FFF0F5;
-
 }
 
 ul#media li{
@@ -55,7 +68,7 @@ p {
 
 .menu-links{
   float: left;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 img:not(.about-img){
