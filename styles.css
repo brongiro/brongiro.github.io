@@ -8,6 +8,13 @@
   padding: 30px;
 }
 
+footer{
+  background: #b582b3;
+  height: 50px;
+  align-items: center;
+
+}
+
 .media-links {
   display: flex;
   justify-content: space-between;
